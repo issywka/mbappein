@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbappe In Petition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-green"></div>
+        <div class="glow glow-purple"></div>
+        <div class="glow glow-blue"></div>
+        <div class="glow glow-gold"></div>
+    </div>
+
+    <main class="container">
+        <header class="header">
+            <h1 class="title">MBAPPE <span class="highlight">IN</span></h1>
+            <p class="subtitle">The official petition to keep Kylian Mbappé in Real Madrid</p>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="mbappe_stay.png" alt="Mbappe Real Madrid" class="hero-image">
+                    <div class="stamp green-stamp">DEJAR</div>
+                    <div class="stamp-text">Mbappe In</div>
+                </div>
+            </div>
+
+            <div class="petition-section glass-panel">
+                <h2>Sign the Petition</h2>
+                <p class="description">Show your support! Let's show Kylian how much he means to the Madridistas. He is crucial for our future and we want him to stay!</p>
+                
+                <div class="progress-container">
+                    <div class="progress-stats">
+                        <span id="current-signatures" class="stat-number">0</span>
+                        <span class="stat-target">/ 10,000,000</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-bar"></div>
+                    </div>
+                    <p class="recent-signers" id="recent-signers">Someone from Madrid just signed!</p>
+                </div>
+
+                <form id="petition-form" class="petition-form">
+                    <button type="submit" class="submit-btn" id="submit-btn">
+                        <span>SIGN THE PETITION</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+
+                <div class="success-message hidden" id="success-message">
+                    <svg viewBox="0 0 24 24" class="check-icon">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    <h3>Thank you for signing!</h3>
+                    <p>Hala Madrid!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
